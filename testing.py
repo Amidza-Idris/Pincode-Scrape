@@ -49,7 +49,7 @@ for pinc in pin_codes:
     print(pinc, "\n")
     
     ijk = ijk + 1
-    if ijk == 100:
+    if ijk == 100: # Remove this limiter to get all the data. This just does the first 100 for an example file
         break
     to_process = scrape(pinc)
 
